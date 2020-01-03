@@ -103,18 +103,18 @@
 
 
 
-  <meta name="description" content="Node.js 介绍为什么要学Node.js 企业需求 具有服务端开发经验更好 全栈开发工程师 front-end back-end   基本的网站开发能力 服务端 全段">
-<meta name="keywords" content="服务端,基础知识">
+  <meta name="description" content="在Debian10上安装MongoDB 本文安装的是MongoDB 4.2 Community Edition  注意事项 MongoDB 4.2 删除了对Debian 8 (“jessie”) 的支持">
+<meta name="keywords" content="Linux,MongoDB">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Node.js">
-<meta property="og:url" content="http://yoursite.com/2019/05/30/Node-js/index.html">
+<meta property="og:title" content="在Debian10上安装MongoDB">
+<meta property="og:url" content="http://yoursite.com/2020/01/03/在Debian10上安装MongoDB/index.html">
 <meta property="og:site_name" content="不想努力的咸鱼">
-<meta property="og:description" content="Node.js 介绍为什么要学Node.js 企业需求 具有服务端开发经验更好 全栈开发工程师 front-end back-end   基本的网站开发能力 服务端 全段">
+<meta property="og:description" content="在Debian10上安装MongoDB 本文安装的是MongoDB 4.2 Community Edition  注意事项 MongoDB 4.2 删除了对Debian 8 (“jessie”) 的支持">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-13T09:35:14.411Z">
+<meta property="og:updated_time" content="2020-01-03T04:19:18.636Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Node.js">
-<meta name="twitter:description" content="Node.js 介绍为什么要学Node.js 企业需求 具有服务端开发经验更好 全栈开发工程师 front-end back-end   基本的网站开发能力 服务端 全段">
+<meta name="twitter:title" content="在Debian10上安装MongoDB">
+<meta name="twitter:description" content="在Debian10上安装MongoDB 本文安装的是MongoDB 4.2 Community Edition  注意事项 MongoDB 4.2 删除了对Debian 8 (“jessie”) 的支持">
 
 
 
@@ -122,7 +122,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/05/30/Node-js/">
+  <link rel="canonical" href="http://yoursite.com/2020/01/03/在Debian10上安装MongoDB/">
 
 
 
@@ -132,7 +132,7 @@
   };
 </script>
 
-  <title>Node.js | 不想努力的咸鱼</title>
+  <title>在Debian10上安装MongoDB | 不想努力的咸鱼</title>
   
 
 
@@ -362,7 +362,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/30/Node-js/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/03/在Debian10上安装MongoDB/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jaygk">
@@ -379,7 +379,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Node.js
+          <h1 class="post-title" itemprop="name headline">在Debian10上安装MongoDB
 
               
             
@@ -405,24 +405,12 @@
                 
               
 
-              <time title="创建时间：2019-05-30 16:47:23" itemprop="dateCreated datePublished" datetime="2019-05-30T16:47:23+08:00">2019-05-30</time>
+              <time title="创建时间：2020-01-03 12:14:34 / 修改时间：12:19:18" itemprop="dateCreated datePublished" datetime="2020-01-03T12:14:34+08:00">2020-01-03</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-07-13 17:35:14" itemprop="dateModified" datetime="2019-07-13T17:35:14+08:00">2019-07-13</time>
               
             
           </span>
@@ -439,7 +427,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Node-js/" itemprop="url" rel="index"><span itemprop="name">Node.js</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
 
                 
                 
@@ -474,92 +462,69 @@
       
 
       
-        <h2 id="Node-js-介绍"><a href="#Node-js-介绍" class="headerlink" title="Node.js 介绍"></a>Node.js 介绍</h2><h3 id="为什么要学Node-js"><a href="#为什么要学Node-js" class="headerlink" title="为什么要学Node.js"></a>为什么要学Node.js</h3><ul>
-<li>企业需求<ul>
-<li>具有服务端开发经验更好</li>
-<li>全栈开发工程师<ul>
-<li>front-end</li>
-<li>back-end</li>
-</ul>
-</li>
-<li>基本的网站开发能力<ul>
-<li>服务端</li>
-<li>全段</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+        <h1 id="在Debian10上安装MongoDB"><a href="#在Debian10上安装MongoDB" class="headerlink" title="在Debian10上安装MongoDB"></a>在Debian10上安装MongoDB</h1><blockquote>
+<p>本文安装的是MongoDB 4.2 Community Edition</p>
+</blockquote>
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><blockquote>
+<p>MongoDB 4.2 删除了对Debian 8 (“jessie”) 的支持</p>
+</blockquote>
 <a id="more"></a>
-<h3 id="Node-js是什么"><a href="#Node-js是什么" class="headerlink" title="Node.js是什么"></a>Node.js是什么</h3><ul>
-<li>正确认识Node.js<ul>
-<li>Node.js不是一门语言</li>
-<li>Node.js不是库、不是框架</li>
-<li>Node.js是一个Javascript运行时环境</li>
-<li>Node.js可以解析和执行Javascript代码</li>
-<li>现在的Javascript可以完全脱离浏览器来运行，一切都归功于：Node.js</li>
-</ul>
+<h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><ol>
+<li><h5 id="导入包管理系统使用的公钥"><a href="#导入包管理系统使用的公钥" class="headerlink" title="导入包管理系统使用的公钥"></a>导入包管理系统使用的公钥</h5><p>在终端上，发出以下命令以从<a href="https://www.mongodb.org/static/pgp/server-4.2.asc" target="_blank" rel="noopener">https://www.mongodb.org/static/pgp/server-4.2.asc</a>导入MongoDB公共GPG密钥:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -</span><br></pre></td></tr></table></figure>
 </li>
-<li>构建于Chrome的V8引擎之上<ul>
-<li>代码只是具有特定格式的字符串而已</li>
-<li>引擎可以认识它，引擎可以帮你去解析和执行它</li>
-<li>Google Chrome的V8引擎是目前公认解析执行Javascript代码最快的</li>
-<li>Node.js的作者把Google Chrome中的V8引擎移植了出来，开发了一个独立的Javascript运行时环境。</li>
-</ul>
+</ol>
+<p>   该操作响应为 <code>OK</code></p>
+<p>   但是,如果收到指示gnupg未安装的错误提示, 则可以:</p>
+<ul>
+<li><p>使用以下命令安装gnupg及其必需的库:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install gnupg</span><br></pre></td></tr></table></figure>
 </li>
-<li>浏览器中的Javascript<ul>
-<li>EcmaScript<ul>
-<li>基本的语法</li>
-<li>if</li>
-<li>var</li>
-<li>function</li>
-<li>Object</li>
-<li>Array</li>
 </ul>
+<ul>
+<li><p>安装完成后，重试导入密钥：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -</span><br></pre></td></tr></table></figure>
 </li>
-<li>DOM</li>
-<li>BOM</li>
 </ul>
+<ol start="2">
+<li><h5 id="为MongoDB创建一个-etc-apt-sources-list-d-mongodb-org-4-2-list文件"><a href="#为MongoDB创建一个-etc-apt-sources-list-d-mongodb-org-4-2-list文件" class="headerlink" title="为MongoDB创建一个/etc/apt/sources.list.d/mongodb-org-4.2.list文件"></a>为MongoDB创建一个/etc/apt/sources.list.d/mongodb-org-4.2.list文件</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;deb http://repo.mongodb.org/apt/debian buster/mongodb-org/4.2 main&quot; | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list</span><br></pre></td></tr></table></figure>
 </li>
-<li>Node.js中的Javascript<ul>
-<li><strong>没有BOM和DOM</strong></li>
-<li>只有ECMAScript</li>
-<li>在Node这个Javascript执行环境中Javascript提供了一些服务器级别的操作的API<ul>
-<li>文件读写</li>
-<li>网络服务的构建</li>
-<li>网络通信</li>
-<li>http服务器等</li>
-</ul>
+<li><h5 id="重新加载本地软件包数据库"><a href="#重新加载本地软件包数据库" class="headerlink" title="重新加载本地软件包数据库"></a>重新加载本地软件包数据库</h5><p>执行以下命令以重新加载本地软件包数据库：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
+</li>
+<li><h5 id="安装MongoDB软件包"><a href="#安装MongoDB软件包" class="headerlink" title="安装MongoDB软件包"></a>安装MongoDB软件包</h5><p>安装最新的稳定版本:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install -y mongodb-org</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>   可选的。尽管您可以指定任何可用的MongoDB版本，但是apt-get会在新版本可用时升级软件包。为防止意外升级，您可以将软件包固定在当前安装的版本上：</p>
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;mongodb-org hold&quot; | sudo dpkg --set-selections</span><br><span class="line">echo &quot;mongodb-org-server hold&quot; | sudo dpkg --set-selections</span><br><span class="line">echo &quot;mongodb-org-shell hold&quot; | sudo dpkg --set-selections</span><br><span class="line">echo &quot;mongodb-org-mongos hold&quot; | sudo dpkg --set-selections</span><br><span class="line">echo &quot;mongodb-org-tools hold&quot; | sudo dpkg --set-selections</span><br></pre></td></tr></table></figure>
+<h3 id="运行MongoDB"><a href="#运行MongoDB" class="headerlink" title="运行MongoDB"></a>运行MongoDB</h3><ul>
+<li><h5 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h5><p>默认情况下:</p>
+<ul>
+<li><p>其数据文件位于 <code>/var/lib/mongodb</code></p>
+</li>
+<li><p>其日志文件在 <code>/var/log/mongodb</code></p>
 </li>
 </ul>
 </li>
-<li>Node.js的特性<ul>
-<li>event-driven时间驱动</li>
-<li>non-blocking I/O model非阻塞IO模型（异步）</li>
-<li>lightweight and efficient轻量和高效</li>
-</ul>
+<li><h5 id="启动MongoDB"><a href="#启动MongoDB" class="headerlink" title="启动MongoDB"></a>启动MongoDB</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service mongod start</span><br></pre></td></tr></table></figure>
 </li>
-<li>npm<ul>
-<li>npm是世界上最大的开源库生态系统</li>
-<li>绝大多数Javascript想换的包都存放在了npm上，方便开发人员去下载使用</li>
-</ul>
+<li><h5 id="验证MongoDB已成功启动"><a href="#验证MongoDB已成功启动" class="headerlink" title="验证MongoDB已成功启动"></a>验证MongoDB已成功启动</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service mongod status</span><br></pre></td></tr></table></figure>
+</li>
+<li><h5 id="停止MongoDB"><a href="#停止MongoDB" class="headerlink" title="停止MongoDB"></a>停止MongoDB</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service mongod stop</span><br></pre></td></tr></table></figure>
+</li>
+<li><h5 id="重新启动MongoDB"><a href="#重新启动MongoDB" class="headerlink" title="重新启动MongoDB"></a>重新启动MongoDB</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service mongod restart</span><br></pre></td></tr></table></figure>
+</li>
+<li><h5 id="开始使用MongoDB"><a href="#开始使用MongoDB" class="headerlink" title="开始使用MongoDB"></a>开始使用MongoDB</h5><p>在与mongod相同的主机上启动mongo shell。您可以在没有任何命令行选项的情况下运行mongo shell，以使用默认端口27017连接到在本地主机上运行的mongod：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mongo</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h3 id="Node-js能做什么"><a href="#Node-js能做什么" class="headerlink" title="Node.js能做什么"></a>Node.js能做什么</h3><ul>
-<li>Web服务器后台</li>
-<li>命令行工具<ul>
-<li>npm(node)</li>
-<li>git(c语言)</li>
-<li>hexo(node)</li>
-<li>等等</li>
-</ul>
+<h3 id="卸载MongoDB"><a href="#卸载MongoDB" class="headerlink" title="卸载MongoDB"></a>卸载MongoDB</h3><ul>
+<li><h5 id="停止MongoDB-1"><a href="#停止MongoDB-1" class="headerlink" title="停止MongoDB"></a>停止MongoDB</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service mongod stop</span><br></pre></td></tr></table></figure>
 </li>
-<li>对于前端开发工程师来讲，接触node最多的是它的命令行工具<ul>
-<li>自己写的很少，主要是使用别人第三方的</li>
-<li>webpack</li>
-<li>gulp</li>
-<li>npm</li>
-</ul>
+<li><h5 id="删除相关包"><a href="#删除相关包" class="headerlink" title="删除相关包"></a>删除相关包</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get purge mongodb-org*</span><br></pre></td></tr></table></figure>
+</li>
+<li><h5 id="删除数据目录"><a href="#删除数据目录" class="headerlink" title="删除数据目录"></a>删除数据目录</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm -r /var/log/mongodb</span><br><span class="line">sudo rm -r /var/lib/mongodb</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 
@@ -588,9 +553,9 @@
         
         <div class="post-tags">
           
-            <a href="/tags/服务端/" rel="tag"># 服务端</a>
+            <a href="/tags/Linux/" rel="tag"># Linux</a>
           
-            <a href="/tags/基础知识/" rel="tag"># 基础知识</a>
+            <a href="/tags/MongoDB/" rel="tag"># MongoDB</a>
           
         </div>
       
@@ -603,15 +568,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/07/12/git/" rel="next" title="Git常用命令">
+                <i class="fa fa-chevron-left"></i> Git常用命令
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/07/09/JavaScript中的深拷贝和浅拷贝问题/" rel="prev" title="JavaScript中的深拷贝和浅拷贝问题">
-                JavaScript中的深拷贝和浅拷贝问题 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -828,7 +793,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Node-js-介绍"><span class="nav-number">1.</span> <span class="nav-text">Node.js 介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#为什么要学Node-js"><span class="nav-number">1.1.</span> <span class="nav-text">为什么要学Node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Node-js是什么"><span class="nav-number">1.2.</span> <span class="nav-text">Node.js是什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Node-js能做什么"><span class="nav-number">1.3.</span> <span class="nav-text">Node.js能做什么</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#在Debian10上安装MongoDB"><span class="nav-number">1.</span> <span class="nav-text">在Debian10上安装MongoDB</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#注意事项"><span class="nav-number">1.0.1.</span> <span class="nav-text">注意事项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#具体步骤"><span class="nav-number">1.0.2.</span> <span class="nav-text">具体步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#导入包管理系统使用的公钥"><span class="nav-number">1.0.2.0.1.</span> <span class="nav-text">导入包管理系统使用的公钥</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#为MongoDB创建一个-etc-apt-sources-list-d-mongodb-org-4-2-list文件"><span class="nav-number">1.0.2.0.2.</span> <span class="nav-text">为MongoDB创建一个/etc/apt/sources.list.d/mongodb-org-4.2.list文件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#重新加载本地软件包数据库"><span class="nav-number">1.0.2.0.3.</span> <span class="nav-text">重新加载本地软件包数据库</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#安装MongoDB软件包"><span class="nav-number">1.0.2.0.4.</span> <span class="nav-text">安装MongoDB软件包</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运行MongoDB"><span class="nav-number">1.0.3.</span> <span class="nav-text">运行MongoDB</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#目录"><span class="nav-number">1.0.3.0.1.</span> <span class="nav-text">目录</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#启动MongoDB"><span class="nav-number">1.0.3.0.2.</span> <span class="nav-text">启动MongoDB</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#验证MongoDB已成功启动"><span class="nav-number">1.0.3.0.3.</span> <span class="nav-text">验证MongoDB已成功启动</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#停止MongoDB"><span class="nav-number">1.0.3.0.4.</span> <span class="nav-text">停止MongoDB</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#重新启动MongoDB"><span class="nav-number">1.0.3.0.5.</span> <span class="nav-text">重新启动MongoDB</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#开始使用MongoDB"><span class="nav-number">1.0.3.0.6.</span> <span class="nav-text">开始使用MongoDB</span></a></li></ol></li></ol><li class="nav-item nav-level-3"><a class="nav-link" href="#卸载MongoDB"><span class="nav-number">1.0.4.</span> <span class="nav-text">卸载MongoDB</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#停止MongoDB-1"><span class="nav-number">1.0.4.0.1.</span> <span class="nav-text">停止MongoDB</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#删除相关包"><span class="nav-number">1.0.4.0.2.</span> <span class="nav-text">删除相关包</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#删除数据目录"><span class="nav-number">1.0.4.0.3.</span> <span class="nav-text">删除数据目录</span></a></li></ol></li></div>
             
 
           </div>
